@@ -26,7 +26,7 @@ export const get_user_detail = async (id) => {
 
 export const post_user = async (user_data) => {
     try {
-        const response = await axios_ins.post(USERSLIST_URL, user_data);
+        const response = await axios_instance.post(USERSLIST_URL, user_data);
         console.log(response); 
         return response;
     } catch (error) {

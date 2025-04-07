@@ -18,4 +18,4 @@ axios_instance.interceptors.request.use(
     (error) => Promise.reject(error)
   );
 
-export default axios_ins;
+export default axios_instance;
